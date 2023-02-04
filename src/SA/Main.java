@@ -9,11 +9,9 @@ public class Main {
         bus.fuelCalc(-50);
         bus.changeStatus("차고지행");
         bus.fuelCalc(10);
-        //bus.printStatus();
         bus.takePassenger(45);
         bus.takePassenger(5);
         bus.checkFare();
         bus.fuelCalc(-55);
-
     }
 }
