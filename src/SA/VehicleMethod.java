@@ -8,8 +8,9 @@ public interface VehicleMethod {
     //속도 변경
     void changeSpeed(int speed);
     // 상태 변경
-    void changeStatus(boolean status);
-    //승객 탑승
+    void changeStatus(String status);
     void takePassenger(int passenger);
+    void checkFare();
+    void fuelCalc(int fuel);
 
 }

@@ -6,7 +6,7 @@ public abstract class Vehicle {
     int speed; //속도
     //boolean changeSppeed; // ??속도 변경??
     int currentPassenger;   //현재 승객수
-    boolean status;
+    String status;
     int maxPassenger;   //최대 승객수
 
     public Vehicle(){
@@ -40,10 +40,10 @@ public abstract class Vehicle {
     public void setMaxPassenger(int maxPassenger){
         this.maxPassenger = maxPassenger;
     }
-    public boolean getStatus(){
+    public String getStatus(){
         return status;
     }
-    public void setStatus(boolean status){
+    public void setStatus(String status){
         this.status = status;
     }
 
