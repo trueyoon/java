@@ -24,10 +24,6 @@ public class Bus extends Vehicle implements VehicleMethod{
         this.status = status;
         System.out.println("상태: " + this.status);
     }
-/*
-    public void printStatus(){
-
-    }*/
 
     @Override
     public void takePassenger(int passenger) {
